@@ -8,8 +8,8 @@ const Yorumlar = (props) => {
 
   return (
     <div>
-      {yorumlar.map((yorum) => {
-        return <Yorum yorum={yorum} />;
+      {yorumlar.map((yorum, i) => {
+        return <Yorum yorum={yorum} key={i} />;
       })}
     </div>
   );

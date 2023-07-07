@@ -39,7 +39,7 @@ const App = () => {
       <AramaCubugu />
       <Gonderiler
         gonderilerProp={gonderiler}
-        gonderiyiBegenCB={gonderiyiBegen}
+        gonderiyiBegenCBProp={gonderiyiBegen}
       />
       {/* Yukarıdaki metni projeye başladığınızda silin*/}
       {/* AramaÇubuğu ve Gönderiler'i render etmesi için buraya ekleyin */}
