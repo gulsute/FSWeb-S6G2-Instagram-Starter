@@ -26,7 +26,7 @@ const Gonderi = (props) => {
         gonderiyiBegen={() => gonderiyiBegen(gonderi.id)}
       />
       {/* Yorumlar da proplara dikkat istiyor! */}
-      <Yorumlar />
+      <Yorumlar yorumlar={gonderi.comments} />
     </div>
   );
 };
